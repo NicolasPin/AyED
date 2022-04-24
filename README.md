@@ -1,2 +1,9 @@
-# AyED
-Repositorio público e individual de Algortimos y Estructuras de Datos
+# Algoritmos y Estructuras de Datos
+
+## Repositorio público e individual de AyED
+---- 
+
+- Curso 1253
+- Nicolas Pinto
+- Legajo 1775560
+- Año 2022 
