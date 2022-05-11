@@ -33,13 +33,14 @@ int main (){
     Conjunto de valores: representado matematicamente por los enteros. (Z) 
     */
 
-    assert(0 == -1 + 1);       //Suma y comparacion
-    assert(6 != 7 - 2);         //Diferencia y resta
-    assert(1 >= -2);             //Menor o igual
-    assert(-10 <= 9);            //Mayor o igual
-    assert(9== 3 * 3 );         //comparacion y multiplicación
-    assert(5 == 15 / 3 );       //comparacion y división              
-    assert(1 == 11 % 2 );       //comparacion y resto 
+    assert(0 == -1 + 1);          //Suma y comparacion
+    assert(6 != 7 - 2);           //Diferencia y resta
+    assert(1 >= -2);              //Menor o igual
+    assert(-10 <= 9);             //Mayor o igual
+    assert(9== 3 * 3 );           //comparacion y multiplicación
+    assert(-5 == 15 / -3 );       //comparacion y división              
+    assert(1 == 11 % 2 );         //comparacion y resto 
+  
 
 
 
@@ -71,7 +72,7 @@ int main (){
     assert(true and true);                   
     assert(not false);                       
     assert(false != true and true or false);
-    assert(false != (5+5.0==10));
+    assert(false != (5+5.0==10));                             
     assert(true == true);
     assert(true == (true and true) and false or true );
 
@@ -104,7 +105,7 @@ int main (){
     assert( "1" <= "2" );
     
 
-    
+
     std::cout << "Todo perfecto :)";
     
 }
